@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./imagens/icon.png"/>
+
+
+    <title>Churrascômetro</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <ul>
+                <li><a href="/">Zerar contador</a></li>
+                <li><a href="#explicacao">Como calculamos?</a></li>
+                <li><a href="#listadecompras">Lista de compras</a></li>
+
+
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+  
+        <h1>Churrascômetro</h1>
+        <p>Não sabe o quanto de carne e bebida comprar na hora de organizar um churrasco para a galera? 
+        Aqui você irá calcular a quantidade de carne e bebida necessária de acordo com o tamanho da sua festa. 
+        Insira as quantidades abaixo:    
+        </p>    
+     <br>   
+        <input id="adultos" name="adultos" type="number" placeholder="Adultos">
+        <input id="criancas" name="criancas" type="number" placeholder="Crianças">
+        <input id="duracao" name="duracao" type="number" placeholder="Duração">
+   
+        <button onclick="calcular()">Calcular</button>
+
+
+        <div id="resultado">         
+        </div>
+
+    </div>
+
+        <div id="explicacao">
+             <h2>Como é feito o cálculo?</h2>
+             <p> Estimamos que uma pessoa adulta coma 400g de carne durante um churrasco, com a duração de até 6 horas. Se durar mais tempo, então a média será 650g de carne por pessoa adulta. Em relação a cerveja, calculamos a média de 1,2L por pessoa (5/6 latinhas) até 6 horas, ou 2L se forem mais horas de festa.
+                 Adultos consomem 1L de refrigerante e água em 6 horas, em mais horas consideramos 1,5L. As crianças são calculadas na carne e refri + água com a metade das quantidades citadas acima. Os resultados são uma boa forma de acertar na organização e evitar possíveis desperdícios. 
+
+             </p>
+   
+        <div id="listadecompras">
+            <h2>Lista de compras</h2>
+                <p>• Carnes variadas: Picanha, alcatra, linguiças, asinha de frango, etc. <br>
+                <br>• Pão de alho: Outro item que não pode faltar em um bom churrasco é o famoso pão de alho. Afinal, a iguaria agrega valor ao seu evento e faz a alegria dos convidados, acompanhando muito bem todos os tipos de carne.
+                Também vale apostar na diversidade, aproveitando o que cada tipo de pão de alho tem de melhor. Portanto, coloque na sua lista as opções tradicionais, picantes, bolinhas e até um pão doce, para servir de sobremesa aos convidados.<br>
+                <br>• Carvão: Por mais incrível que pareça, muitas pessoas acabam se esquecendo de comprar o carvão antes de começarem o churrasco. Então, não cometa esse erro e coloque-o agora mesmo na sua lista!<br>
+                <br>• Opção vegetariana ou vegana: Para agradar aos convidados, coloque na sua lista também uma opção vegana para a churrasqueira. Você pode optar por diversos tipos de vegetais, como batata, pimentão, cebola e abacaxi. Esse tipo de cuidado faz com que todos os paladares fiquem satisfeitos no seu evento.<br>
+                <br>• Vinagrete: O vinagrete é um dos acompanhamentos mais tradicionais para o churrasco, portanto o prato não pode ficar de fora da sua lista. Você pode comprá-lo pronto ou fazê-lo em sua própria casa — o que dará um toque de sabor às carnes. <br>
+                <br>• Farofa: Outro acompanhamento muito importante é a farofa. Esse caso é semelhante ao do vinagrete, o que significa que você pode fazer a sua própria receita ou comprar a iguaria já pronta. Caso escolha preparar a farofa em casa, aposte em receitas inovadoras e saborosas. As versões de calabresa, banana ou abobrinha são ótimas para agregar valor ao seu churrasco! <br>
+                <br>• Gelo: Não importa se seu convidado vai ingerir refrigerante, suco, cerveja ou outro tipo de bebida: é importante contar com um local adequado para mantê-las em uma temperatura agradável. Portanto, não se esqueça de incluir o gelo em sua lista. Caso escolha comprá-lo com antecedência, lembre-se de guardá-lo no freezer até a chegada das pessoas. <br>
+                <br>• Pratos, copos e talheres: Algumas pessoas preferem evitar o trabalho de lavar todos os copos e pratos após o final do evento. Há também aqueles churrascos organizados em sítios que não contam com essa infraestrutura.
+
+                Nos dois casos, é importante incluir pratos, talheres e copos na sua lista. Outra opção é pedir que os convidados levem os copos de casa ou, então, utilizar seus próprios recipientes para servir os amigos e familiares. <br>
+                <br>• Temperos: Por fim, um item que não pode ficar de fora da lista são os temperos. Afinal, uma carne bem temperada faz toda a diferença para o seu churrasco, não é mesmo? Nesse aspecto, é importante tomar cuidado com a iguaria escolhida, uma vez que cada uma delas é indicada para determinado tipo de carne.
+
+                Para as carnes bovinas, por exemplo, o chimichurri pode ser uma ótima opção, pois acentua o sabor forte desse tipo de alimento. Já uma carne branca, como a do frango, pode pedir um sabor mais agridoce ou apimentado, uma vez que assimila muito bem os temperos colocados.
+                
+                Portanto, escolha os melhores temperos de acordo com o tipo de carne que você deseja assar na sua churrasqueira.
+                
+                Fazer uma lista de compras para churrasco é essencial para garantir o sucesso do grande dia. Mas, além disso, é importante sempre escolher produtos de qualidade, que efetivamente agreguem valor ao evento que você está preparando com tanto cuidado. <br> 
+                </p>
+        
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+  
+
+</body>
+    
+
+</html>
